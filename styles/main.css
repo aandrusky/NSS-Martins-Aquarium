@@ -1,0 +1,79 @@
+/*.fish {}
+.fish_name {}
+#fishtank {}*/
+
+img {
+width: 300px;
+}
+
+.fishList {
+    background-color: gainsboro;
+}
+
+.firstFish {
+    background-color: aquamarine;
+    flex: auto;
+}
+
+.secondFish {
+    background-color: cadetblue;
+}
+
+.thirdFish {
+    background-color: coral;
+}
+
+.travel {
+    background-color: lightblue;
+}
+
+.travel__quotes {
+    background-color: lightseagreen;
+}
+
+.travel__firstQuote {
+    background-color: thistle;
+}
+
+.travel__secondQuote {
+    background-color: mediumslateblue;
+}
+
+.travel__thirdQuote {
+    background-color: navajowhite;
+}
+
+.Locations {
+    background-color: orange;
+}
+
+.locations__one {
+    background-color: orchid;
+}
+
+.locations__two {
+    background-color: tomato;
+}
+
+.locations__three {
+    background-color: teal;
+}
+
+.tips {
+    background-color: yellowgreen;
+    display: flex 1;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.tips__clownfish {
+    background-color: rgb(155, 90, 90);
+}
+
+.tips__lionfish {
+    background-color:  rgb(155, 90, 90);
+}
+
+.tips__triggerfish {
+    background-color:  rgb(155, 90, 90);
+}
