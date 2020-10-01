@@ -2,6 +2,12 @@
 .fish_name {}
 #fishtank {}*/
 
+.pageHeader {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
 img {
 width: 300px;
 }
@@ -27,21 +33,7 @@ width: 300px;
     background-color: lightblue;
 }
 
-.travel__quotes {
-    background-color: lightseagreen;
-}
 
-.travel__firstQuote {
-    background-color: thistle;
-}
-
-.travel__secondQuote {
-    background-color: mediumslateblue;
-}
-
-.travel__thirdQuote {
-    background-color: navajowhite;
-}
 
 .Locations {
     background-color: orange;
@@ -60,10 +52,9 @@ width: 300px;
 }
 
 .tips {
-    background-color: yellowgreen;
-    display: flex 1;
-    flex-wrap: wrap;
-    justify-content: right;
+    background-color: thistle;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .tips__clownfish {
@@ -76,4 +67,117 @@ width: 300px;
 
 .tips__triggerfish {
     background-color:  rgb(155, 90, 90);
+}
+
+.rightContainer {
+    display: flex;
+    justify-content: flex-end;
+} 
+
+.fishContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid black;
+        padding: .5em;
+        margin: 1em;
+}
+
+.fishList {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.fish {
+        border: 1px solid black;
+        padding: .5em;
+        margin: 2em;
+        text-align: center;
+        flex-direction: row;
+}
+
+.lengthItems {
+    text-align: center;
+    font-size: 22px;
+}
+
+.locationItems {
+    text-align: center;
+    font-size: 22px;
+}
+
+.dietItems {
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.factHeading {
+    text-align: center;
+    font-size: 25px;
+    text-emphasis: bold;
+}
+
+.travelListHeading {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.QuoteList {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    
+
+}
+
+.Quote {
+        
+        padding: .5em;
+        margin: .5em;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+}
+
+#quoteText {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#quoteAuthor {
+    font-size: 23px;
+    
+    
+}
+
+#quoteAuthorTwo {
+    font-size: 15px;
+    
+}
+
+.locationListHeading {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.locationList {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.locationItems {
+        border: 1px solid black;
+        padding: .5em;
+        margin: 2em;
+        text-align: center;
+        flex-direction: row;
 }
