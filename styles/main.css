@@ -8,6 +8,11 @@
     font-style: italic;
 }
 
+.mainContainer {
+    display: flex;
+}
+
+
 img {
 width: 300px;
 }
@@ -51,11 +56,7 @@ width: 300px;
     background-color: teal;
 }
 
-.tips {
-    background-color: thistle;
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 .tips__clownfish {
     background-color: rgb(155, 90, 90);
@@ -161,7 +162,7 @@ width: 300px;
     
 }
 
-.locationListHeading {
+.LocationListHeading {
     text-align: center;
     font-size: 35px;
     font-style: italic;
@@ -174,10 +175,42 @@ width: 300px;
 
 }
 
-.locationItems {
+.harvestItems {
         border: 1px solid black;
         padding: .5em;
         margin: 2em;
         text-align: center;
         flex-direction: row;
+}
+
+.fishListTips {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    border: 3px solid black;
+        padding: 5em;
+        margin: 2em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+
+}
+
+.fishTips {
+        border: 3px solid black;
+        padding: 5em;
+        margin: 2em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 25px;
+        
+}
+
+.tipsHeading {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic
 }
