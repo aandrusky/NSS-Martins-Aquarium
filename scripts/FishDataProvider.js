@@ -29,10 +29,14 @@ export const useFish = () => {
     return fishCollection.slice()
 }
 
-import { useFish } from './FishDataProvider.js'
+//import { useFish } from './FishDataProvider.js'
 
-const allTheFish = useFish()
+//const allTheFish = useFish()
 
-for (const fish of allTheFish) {
-    console.log(fish)
-}
+//for (const fish of allTheFish) {
+//    console.log(fish)
+//}
+
+//export const addFish = (fishObject) => {
+//    fishCollection.push(fishObject)
+//}
