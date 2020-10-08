@@ -1,5 +1,3 @@
-
-
 const locationCollection = [
     {
         location: "Red Sea",
@@ -21,4 +19,3 @@ const locationCollection = [
 export const useLocation = () => {
     return locationCollection.slice()
 }
-
