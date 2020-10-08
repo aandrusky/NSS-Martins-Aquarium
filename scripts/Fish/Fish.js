@@ -2,8 +2,9 @@
 
 export const Fish = (fishObj) => {
     return`
+    
     <section class="fish">
-                    <h2 class="fish__name>${fishObj.name}</h2>
+                    <h2 class="fish__name">${fishObj.name}</h2>
                     <img class="fish__image" src="${fishObj.image}"
                         alt="">
                     <h3 class="factHeading">Length:</h3>
@@ -24,6 +25,7 @@ export const Fish = (fishObj) => {
                             <li>${fishObj.food}</li>
                         </ul>
                     </div>
+                    
                 </section>
     `
 }

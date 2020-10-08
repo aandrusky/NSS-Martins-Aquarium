@@ -1,12 +1,20 @@
-import { useFish } from './FishDataProvider.js'
-import { fishList } from './FishList.js'
 
-//const allTheFish = useFish()
 
-//console.log(allTheFish)
-
-//for (const fish of allTheFish) {
- //   console.log(fish)
-//}
+//***Fish functions***
+import { fishList } from './Fish/FishList.js'
+import { useFish } from './Fish/FishDataProvider.js'
 
 fishList()
+
+//***Location functions***
+import { useLocation} from '/LocationDataProvider.js'
+
+const allTheLocations = useLocation()
+
+for (const location of allTheLocations) {
+    console.log(location)
+}
+
+
+
+
