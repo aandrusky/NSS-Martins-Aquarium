@@ -6,7 +6,7 @@ const fishCollection = [
         length: 4.3,
         location: "Red Sea",
         image: "https://cdn.powered-by-nitrosell.com/product_images/11/2575/large-common%20clown.jpg"
-    }
+    },
     {
         name: "Maverick",
         food: "Sea Urchins",
@@ -14,7 +14,7 @@ const fishCollection = [
         length: 28,
         location: "Nova Scotia",
         image: "https://churaumi.okinawa/userfiles/images/topics/20200605_sokomongara_1.jpg"
-    }
+    },
     {
         name: "Lionel Fischie",
         food: "Mollusks",
